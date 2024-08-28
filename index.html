@@ -1,0 +1,332 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio Website Using HTML, CSS and Javascript</title>
+    <link rel="stylesheet" href="style.css">
+
+    <!-- box icons -->
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+</head>
+
+<body>
+    <div class="wrapper">
+        <div class="cover cover-left"></div>
+        <div class="cover cover-right"></div>
+
+        <div class="book">
+            <!-- portFolio page -->
+            <div class="book-page page-left">
+                <div class="profile-page">
+                    <img src="img2.jpg" alt="loading.">
+                    <h1>Amit Kumar Singh</h1>
+                    <h3>Front-End Developer</h3>
+
+                    <!-- social media -->
+                    <div class="social-media">
+                        <a href="#"><i class='bx bxl-linkedin'></i></a>
+                        <a href="#"><i class='bx bxl-github'></i></a>
+                    </div>
+
+                    <p>Hi, I'm a Amit Kumar Singh, a Front-End Developer. I am eager to begin my career in Front-End develpoment. With a passion for relevant skill/interest i mention, I am motivated to contribute my enthusiasm, dedication, and specific skill/quality to organization</p>
+
+                    <div class="btn-box">
+                        <a href="#" class="btn">Download CV</a>
+                        <a href="#" class="btn contact-me">Contact Me</a>
+                    </div>
+                </div>
+            </div>
+
+            <!-- page 1 & 2 -->
+            <div class="book-page page-right turn" id="turn-1">
+                <!-- page 1 (Education) -->
+                <div class="page-front">
+                    <h1 class="title">Education</h1>
+
+                    <div class="workeduc-box">
+                        <div class="workeduc-content">
+                            <span class="year">
+                                <i class='bx bxs-calendar'></i>2020 - 2023
+                            </span>
+                            <h3>
+                                B.Sc.(Bachelor of Science) - Lucknow University
+                            </h3>
+                            <p>Completed a B.Sc. in Mathematics from the University of Lucknow in May 2023 with 73.57%, and graduated as the university topper.</p>
+                        </div>
+
+                        <div class="workeduc-content">
+                            <span class="year">
+                                <i class='bx bxs-calendar'></i>August 2023 - February 2024 
+                            </span>
+                            <h3>
+                                Certification Degree - The Ducat IT training School
+                            </h3>
+                            <p>Completed a web development course specializing in front-end development. Gained skills in HTML, CSS, JavaScript, React.</p>
+                        </div>
+
+                        <div class="workeduc-content">
+                            <span class="year">
+                                <i class='bx bxs-calendar'></i>February 2024 - till August 2024
+                            </span>
+                            <h3>
+                                Internship - S.O. Infotech Private Limited
+                            </h3>
+                            <p>
+                                Completed an internship as a front-end developer, focusing on HTML, CSS, JavaScript, React, Redux, Redux-toolkit. Gained practical experience in responsive websites, optimizing performance, and collaborating with design and development teams.
+                            </p>
+                        </div>
+                    </div>
+                    <span class="number-page">1</span>
+
+                    <!-- next-button -->
+                    <span class="nextprev-btn" data-page="turn-1">
+                        <i class='bx bx-chevron-right'></i>
+                    </span>
+                </div>
+
+                <!-- page 2 (my skills) -->
+                <div class="page-back">
+                    <h1 class="title">My Skills</h1>
+
+                    <div class="skills-box">
+                        <div class="skills-content">
+                            <h3>Front-End</h3>
+                            <div class="content">
+                                <span><i class='bx bxl-html5'></i>HTML</span>
+                                <span><i class='bx bxl-css3'></i>CSS</span>
+                                <!-- <span><i class='bx bxl-tailwind-css'></i>Tailwind</span> -->
+                                <span><i class='bx bxl-bootstrap'></i>Bootstrap</span>
+                                <span><i class='bx bxl-javascript'></i>JavaScript</span>
+                                <span><i class='bx bxl-typescript'></i>TypeScript</span>
+                                <span><i class='bx bxl-react'></i>React</span>
+                                <span><i class='bx bxl-redux'></i>Redux</span>
+                                <span><i class='bx bxl-redux'></i>Redux-toolkit</span>
+                                <span><i class='bx bxl-redux'></i>RTK Query</span>
+                                <span><i class='bx bxl-github'></i>Github</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <span class="number-page">2</span>
+
+                    <!-- prev button -->
+                    <span class="nextprev-btn back" data-page="turn-1">
+                        <i class="bx bx-chevron-left"></i>
+                    </span>
+                </div>
+            </div>
+
+            <!-- page 3 & 4 -->
+            <div class="book-page page-right turn" id="turn-2">
+                <!-- page 3 (latest project ) -->
+                <!-- page 3 (project 1) -->
+                <div class="page-front">
+                    <h1 class="title">Latest Project</h1>
+                    <h3>
+                        <p>
+                            <b>Project 1 -: </b>
+                            <i class="project_details">Kanban Board(Drag-N-Drop)</i>
+                        </p>
+                    </h3>
+
+                    <div class="portfolio-box">
+                        <div class="info-box">
+                            <div class="info-title">
+                                <a href=" http://localhost:5174/Kanban-Board/">
+                                    <b>Live Preview</b>
+                                    <i class="bx bx-link-external"></i>
+                                </a>
+                            </div>
+                            <p><b>Technologies Used:</b></p>
+                            <p class="project_details">React, Javascript, LocalStorage, Bootstrap, CSS3 & HTML5</p>
+                            <p>
+                                <b>Description : </b>
+                                Developed a full-featured Kanban-Board(Drag-N-Drop) application using React,Local Storage, and React Router.
+                            </p>
+                            <p>
+                                <b>Features Implemented: </b>
+                                Developed a Kanban board application to help teams manage tasks efficiently using a drag-and-drop interface. Implemented a dynamic user interface with React, allowing users to create, delete, and move tasks across columns(To Do, Doing, Done). Utilized useState Hook for state management. localStorage allows web applications to store data locally within the user's browser.
+                            </p>
+
+                        </div>
+                    </div>
+
+                    <span class="number-page">3</span>
+
+                    <!-- next-button -->
+                    <span class="nextprev-btn" data-page="turn-2">
+                        <i class="bx bx-chevron-right"></i>
+                    </span>
+                </div>
+
+
+                <!-- page 4 (project 2) -->
+                <div class="page-back">
+                    <h1 class="title">Latest Project</h1>
+                    <h3>
+                        <p>
+                            <b>Project 2 -: </b>
+                            <i class="project_details">CRUD-APP using Reudx-toolkit</i>
+                        </p>
+                    </h3>
+
+                    <div class="portfolio-box">
+                        <div class="info-box">
+                            <div class="info-title">
+                                <a href="http://localhost:3000/">
+                                    <b>Live Preview</b>
+                                    <i class="bx bx-link-external"></i>
+                                </a>
+                            </div>
+                            <p><b>Technologies Used:</b></p>
+                            <p class="project_details">Redux-toolkit, Redux, React, Javascript, Bootstrap, CSS3 & HTML5</p>
+                            <p>
+                                <b>Description: </b>
+                                Developed a CRUD application utilizing React for a dynamic user interface. Implemented Redux and Redux-toolkit to manage application state efficiently, leveraging 'createSlice' to combine reducer and action in a single object. 'configureStore' simplifies the process of creating a redux store.Redux-toolkit uses 'Immer' library to write mutating code that is automaticaly converted to immutable state updates. Utilized JavaScript to handle CRUD operations. Bootstrap for a responsive design, while CSS3 used for custom styling.
+                            </p>
+                        </div>
+                    </div>
+
+
+                    <span class="number-page">4</span>
+
+                    <!-- prev-button -->
+                    <span class="nextprev-btn back" data-page="turn-2">
+                        <i class="bx bx-chevron-left"></i>
+                    </span>
+                </div>
+            </div>
+
+
+            <!-- page 5 & 6 -->
+            <div class="book-page page-right turn" id="turn-3">
+                <!-- page 5 (latest project ) -->
+                <!-- page 5 (project 3) -->
+                <div class="page-front">
+                    <h1 class="title">Latest Project</h1>
+                    <h3>
+                        <p>
+                            <b>Project 3 -: </b>
+                            <i class="project_details">CRUD-Application using JSON-Server</i>
+                        </p>
+                    </h3>
+
+                    <div class="portfolio-box">
+                        <div class="info-box">
+                            <div class="info-title">
+                                <a href="http://localhost:3001/">
+                                    <b>Live Preview</b>
+                                    <i class="bx bx-link-external"></i>
+                                </a>
+                            </div>
+                            <p><b>Technologies Used:</b></p>
+                            <p class="project_details">React, Javascript, JSON-Server, CSS3, HTML5</p>
+                            <p>
+                                <b>Description : </b>
+                                Developed a CRUD application for dynamic and interactive user experience. Integrated JSON-SERVER to simulate a REST API, which facilitated efficient data management and interactions without requiring a backend server. Implemented React Router to handle client-side routing, allowing users to navigate seamlessly between different pages within the single-page application.JavaScript manage core CRUD operations—Create, Read, Update, and Delete—enabling users to interact with data effectively. CSS3 was used for custom styling.
+                            </p>
+                        </div>
+                    </div>
+
+                    <span class="number-page">5</span>
+
+                    <!-- next-button -->
+                    <span class="nextprev-btn" data-page="turn-3">
+                        <i class="bx bx-chevron-right"></i>
+                    </span>
+                </div>
+
+
+                <!-- page 6 (project 4) -->
+                <div class="page-back">
+                    <h1 class="title">Latest Project</h1>
+                    <h3>
+                        <p>
+                            <b>Project 4 -: </b>
+                            <i class="project_details">3D Portfolio website</i>
+                        </p>
+                    </h3>
+
+                    <div class="portfolio-box">
+                        <div class="info-box">
+                            <div class="info-title">
+                                <a href="http://127.0.0.1:5501/index.html">
+                                    <b>Live Preview</b>
+                                    <i class="bx bx-link-external"></i>
+                                </a>
+                            </div>
+                            <p><b>Technologies Used:</b></p>
+                            <p class="project_details">Javascript, CSS3, HTML5</p>
+                            <p>
+                                <b>Description : </b>
+                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque quam distinctio
+                                labore
+                                ad, dolorem error facilis illo qui. Voluptatibus aut, amet hic at quos est veniam
+                                natus
+                                suscipit nostrum ad blanditiis autem ut nam. Nihil doloribus deserunt obcaecati
+                                placeat
+                                earum!
+                            </p>
+                        </div>
+                    </div>
+
+
+                    <span class="number-page">6</span>
+
+                    <!-- prev-button -->
+                    <span class="nextprev-btn back" data-page="turn-3">
+                        <i class="bx bx-chevron-left"></i>
+                    </span>
+                </div>
+            </div>
+
+            <div class="book-page page-right turn" id="turn-4">
+                <!-- page 7 (latest project ) -->
+                <!-- page 7 (project 5) -->
+                <div class="page-front">
+                    <h1 class="title">Latest Project</h1>
+                    <h3>
+                        <p>
+                            <b>Project 5 -: </b>
+                            <i class="project_details">E-Commerce Website</i>
+                        </p>
+                    </h3>
+
+                    <div class="portfolio-box">
+                        <div class="info-box">
+                            <div class="info-title">
+                                <a href="">
+                                    <b>Live Preview</b>
+                                    <i class="bx bx-link-external"></i>
+                                </a>
+                            </div>
+                            <p><b>Technologies Used:</b></p>
+                            <p class="project_details">HTML5, CSS3, Javascript, React</p>
+                            <p>
+                                <b>Description : </b>
+                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque quam distinctio labore
+                                ad, dolorem error facilis illo qui. Voluptatibus aut, amet hic at quos est veniam natus
+                                suscipit nostrum ad blanditiis autem ut nam. Nihil doloribus deserunt obcaecati placeat
+                                earum!
+                            </p>
+                        </div>
+                    </div>
+
+                    <span class="number-page">7</span>
+
+                    <!-- profile-button -->
+                    <a href="#" class="back-profile">
+                        <p>Profile</p>
+                        <i class='bx bxs-user'></i>
+                    </a>
+                </div>
+
+            </div>
+        </div>
+
+        <script src="script.js"></script>
+</body>
+
+</html>
